@@ -1,0 +1,34 @@
+*{margin:0; padding:0;}
+body {background:url(../imagens/bg_login.png);}
+a:link, a:visited, a:active {text-decoration: none;}
+input[type="checkbox"] {float:left; margin-right:6px;}
+label {cursor:pointer;}
+#corpo_login {width:360px; margin:0 auto; margin-top:150px;}
+#logo {width:119px; height:51px; margin:0 auto; background:url(../imagens/logo.png);}
+#bg_login_content {width:340px; height:292px; margin:0 auto; margin-top:30px; background:url(../imagens/bg_login_content.png);}
+#part1_dentr_login {width:270px; float:left; margin-top:26px; margin-left:34px;}
+#rodape {width:340px; margin:0 auto; margin-top:-15px; font-family:Segoe UI; font-size:13px; color:#DFDFDF; text-align:center; opacity:0.80;}
+#usr_text_img {width:77px; height:23px; float:left; background:url(../imagens/img_usr_senha_text.png);}
+#senha_text_img {width:63px; height:23px; float:left; margin-top:7px; background:url(../imagens/img_usr_senha_text.png); background-position:0px -23px;}
+#input_usr {width:217px; height:35px; float:left; margin-top:10px; padding-left:46px; padding-right:10px; padding-bottom:3px; outline:0; border:none; display:block; background:url(../imagens/inputs_login.png); font-family:Segoe UI; font-size:16px; color:#666;}
+#input_senha {width:217px; height:35px; float:left; margin-top:10px; padding-left:46px; padding-right:10px; padding-bottom:3px; outline:0; border:none; display:block; background:url(../imagens/inputs_login.png); background-position:0px -38px; font-family:Segoe UI; font-size:16px; color:#666;}
+#box_mantenha_conectado {width:270px; float:left; margin-top:18px; font-family:Segoe UI; font-size:13px; color:#DCE1E5; line-height:1em;}
+.text_buttons_opc {font-family:Segoe UI; font-size:14px; color:#D6DBDD;}
+#button_esqueci_senha {width:142px; height:33px; float:left; margin-top:6px; background:#3E535F; text-align:center; padding-bottom:3px; border:none; cursor:pointer;}
+#button_esqueci_senha:hover {background:#435865;}
+#button_esqueci_senha:active {background:#3A4F5A;}
+#button_entrar {width:125px; height:33px; float:left; margin-top:6px; margin-left:3px; background:url(../imagens/button_entrar.png); border:none; cursor:pointer;}
+#button_entrar:hover {background-position:0px -33px;}
+#button_entrar:active {background-position:0px -66px;}
+#alerts {float:right; margin-top:92px; margin-right:120px;}
+#alert_info {width:274px; padding:15px; float:right; margin-bottom:12px; background:#A4231F; border-radius:10px; font-family:Segoe UI; font-size:14px; color:#F5E7E6; clear:both; cursor:pointer;}
+#alert_info:hover {background:#B12421;}
+#alert_info2 {width:274px; padding:15px; float:right; margin-bottom:12px; background:#D6D6D6; border-radius:10px; font-family:Segoe UI; font-size:14px; color:#666; clear:both; display:none;}
+#alert_info3 {width:274px; padding:15px; float:right; margin-bottom:12px; background:#628F03; border-radius:10px; font-family:Segoe UI; font-size:14px; color:#EDF1E0; clear:both; cursor:pointer;}
+#alert_info3:hover {background:#699A03;}
+#input_esqueci_senha {width:260px; font-family:Segoe UI; font-size:15px; color:#555; padding:7px; border:1px solid #C4C4C4; background:#FFF; margin-top:10px; border-radius:1px;}
+#input_esqueci_senha:hover {border:1px solid #B1B1B1; box-shadow:inset 0 1px 1px #DDDDDD;}
+#input_esqueci_senha:focus {outline:0 none; border:1px solid #56B4EF; box-shadow:inset 0 1px 2px #C3C3C3;}
+#button_redefenir_senha {font-family: Segoe UI; color:#E4E7E9; text-shadow:0 -1px #2F3D47; border:1px solid #42515E; cursor:pointer; height:26px; padding-bottom:2px; margin-top:10px; padding-left:17px; padding-right:17px; border-radius:8px; font-size:12px; background-color:#5F7584; line-height:1.0em; box-shadow:inset 1px 1px 0 rgba(400,400,400,0.3), 0 1px 3px rgba(0,0,0,0.5); background:-webkit-gradient(linear,center top,center bottom,from(#718A9B),to(#445462));}
+#button_redefenir_senha:hover {background:-webkit-gradient(linear,center top,center bottom,from(#91A2B0),to(#586B7C)); box-shadow:inset 1px 1px 0 rgba(400,400,400,0.3), 0 1px 3px rgba(0,0,0,0.5);}
+#button_redefenir_senha:active {box-shadow:inset 3px 3px 3px #36424B,0 1px 1px rgba(400,400,400,0.9)}

@@ -1,0 +1,4 @@
+Options +FollowSymLinks
+RewriteEngine on
+ErrorDocument 404 /index.php?url=erro
+RewriteRule ^ajax-ver/(.+)?$ fw_painel/ajax/$1.php
